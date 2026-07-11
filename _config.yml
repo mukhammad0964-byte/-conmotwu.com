@@ -1,0 +1,60 @@
+# GitHub Pages Jekyll 配置 / GitHub Pages Jekyll Configuration
+# 这个文件帮助 GitHub Pages 正确处理和优化网站内容
+# This file helps GitHub Pages properly process and optimize website content
+
+# 网站元数据 / Site Metadata
+title: Conmot Wu Studio
+description: Professional Game Development, App Publishing, and Monetization Platform
+url: "https://mukhammad0964-byte.github.io/-conmotwu.com"
+baseurl: "/-conmotwu.com"
+
+# 作者信息 / Author Information
+author: Conmot Wu
+email: mukhammad0964@icloud.com
+
+# 构建设置 / Build Settings
+markdown: kramdown
+theme: minima
+
+# Jekyll 输出优化 / Jekyll Output Optimization
+exclude:
+  - .git
+  - .github
+  - .gitignore
+  - node_modules
+  - .env
+  - .env.local
+  - DEPLOYMENT_CHECKLIST.md
+  - PROJECT_COMPLETION.md
+  - QUICK_START.md
+  - GITHUB_PAGES_ANALYSIS.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - .DS_Store
+
+# 静态文件处理 / Static Files Handling
+keep_files:
+  - css
+  - js
+  - images
+
+# 网站设置 / Site Settings
+timezone: UTC
+
+# 输出设置 / Output Settings
+show_excerpts: false
+
+# 性能优化 / Performance Optimization
+incremental: true
+profile: false
+future: false
+
+# 插件（可选）/ Plugins (Optional)
+plugins:
+  # - jekyll-feed  # 生成 RSS feed
+  # - jekyll-sitemap  # 自动生成 sitemap（我们已有手动的）
+
+# 安全设置 / Security Settings
+safe: true
+lsi: false

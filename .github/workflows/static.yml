@@ -31,13 +31,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
+          # 上传整个仓库作为网站内容 / Upload entire repository as website content
+          # GitHub Pages 将自动处理 HTML、CSS、JS、SVG 等文件
+          # GitHub Pages will automatically serve HTML, CSS, JS, SVG files
           path: '.'
+      
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
