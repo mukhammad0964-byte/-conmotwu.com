@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Conmot Wu Studio - XML Sitemap for SEO -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- 主页 -->
+    <url>
+        <loc>https://www.conmotwu.com/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- 联系页面 -->
+    <url>
+        <loc>https://www.conmotwu.com/contact.html</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- 隐私政策 -->
+    <url>
+        <loc>https://www.conmotwu.com/privacy-policy.html</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <!-- 服务条款 -->
+    <url>
+        <loc>https://www.conmotwu.com/terms-of-service.html</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+</urlset>

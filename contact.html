@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- SEO 优化 -->
+    <title>Contact Us - Conmot Wu Game Development Studio</title>
+    <meta name="description" content="Get in touch with Conmot Wu Studio. Contact us for game development, app publishing, and gaming services inquiries. Professional support available 24/7.">
+    <meta name="keywords" content="contact, game development contact, app publishing contact, Conmot Wu">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.conmotwu.com/contact.html">
+    <meta property="og:title" content="Contact Conmot Wu - Game Development Studio">
+    <meta property="og:description" content="Get in touch with our professional game development team. Support available 24/7.">
+    
+    <!-- 规范链接 -->
+    <link rel="canonical" href="https://www.conmotwu.com/contact.html">
+    
+    <!-- 样式表 -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <meta name="theme-color" content="#0066cc">
+    
+    <!-- 构造化数据 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "name": "Conmot Wu - Contact Us",
+        "url": "https://www.conmotwu.com/contact.html",
+        "mainEntity": {
+            "@type": "Organization",
+            "name": "Conmot Wu",
+            "email": "mukhammad0964@icloud.com",
+            "url": "https://www.conmotwu.com"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header>
+        <nav>
+            <div class="logo">
+                <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#0066cc;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#ff6b6b;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="50" cy="50" r="45" fill="url(#logoGrad)" opacity="0.2"/>
+                    <rect x="35" y="35" width="30" height="30" fill="url(#logoGrad)" rx="5"/>
+                    <circle cx="50" cy="50" r="8" fill="#ffd700"/>
+                </svg>
+                Conmot Wu
+            </div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/#services">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="privacy-policy.html">Privacy</a></li>
+            </ul>
+            <button class="cta-button">Get Started</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 联系页面英雄区域 -->
+        <section class="contact-hero">
+            <h1>Get In Touch</h1>
+            <p>We're here to help with your game development and publishing needs</p>
+            <p style="font-size: 16px; margin-top: 0.5rem; opacity: 0.9;">Professional support available 24/7</p>
+        </section>
+
+        <!-- 联系内容 -->
+        <section class="contact-main">
+            <!-- 联系表单 -->
+            <div class="contact-form-section">
+                <h2>Send us a Message</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required placeholder="Your full name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required placeholder="your@email.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="company">Company/Studio Name</label>
+                        <input type="text" id="company" name="company" placeholder="Your company name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <input type="text" id="subject" name="subject" required placeholder="What is this about?">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Service Interest</label>
+                        <select id="service" name="service" style="width: 100%; padding: 12px 16px; border: 2px solid var(--border-color); border-radius: 10px; font-size: 16px; font-family: inherit; cursor: pointer;">
+                            <option value="">Select a service...</option>
+                            <option value="game-development">Game Development</option>
+                            <option value="app-publishing">App Publishing</option>
+                            <option value="game-hosting">Game Hosting & Management</option>
+                            <option value="operations">Game Operations</option>
+                            <option value="monetization">Monetization Strategy</option>
+                            <option value="other">Other / General Inquiry</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" required placeholder="Tell us about your project or inquiry..."></textarea>
+                    </div>
+
+                    <div class="form-group" style="display: flex; align-items: center; gap: 0.5rem;">
+                        <input type="checkbox" id="terms" name="terms" required style="width: auto; cursor: pointer;">
+                        <label for="terms" style="margin-bottom: 0; cursor: pointer;">I agree to the <a href="terms-of-service.html" style="color: var(--primary-color); text-decoration: underline;">Terms of Service</a> and <a href="privacy-policy.html" style="color: var(--primary-color); text-decoration: underline;">Privacy Policy</a> *</label>
+                    </div>
+
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+
+            <!-- 联系信息 -->
+            <div class="contact-info-section">
+                <h2>Contact Information</h2>
+
+                <div class="contact-info-card">
+                    <h3>📧 Email</h3>
+                    <p><a href="mailto:mukhammad0964@icloud.com" style="color: var(--primary-color); text-decoration: none;">mukhammad0964@icloud.com</a></p>
+                    <p style="font-size: 14px; color: #999; margin-top: 0.5rem;">Typically responds within 24 hours</p>
+                </div>
+
+                <div class="contact-info-card">
+                    <h3>🌐 Website</h3>
+                    <p><a href="https://www.conmotwu.com" style="color: var(--primary-color); text-decoration: none;">www.conmotwu.com</a></p>
+                    <p style="font-size: 14px; color: #999; margin-top: 0.5rem;">Visit our main website for more information</p>
+                </div>
+
+                <div class="contact-info-card">
+                    <h3>⏰ Support Hours</h3>
+                    <p>Available 24/7 for urgent inquiries</p>
+                    <p style="font-size: 14px; color: #999; margin-top: 0.5rem;">Response guaranteed within 24 hours</p>
+                </div>
+
+                <div class="contact-info-card">
+                    <h3>🎯 Services Offered</h3>
+                    <ul style="list-style: none; padding: 0; margin-top: 0.5rem;">
+                        <li style="padding: 0.4rem 0; color: #666;">• Game Development</li>
+                        <li style="padding: 0.4rem 0; color: #666;">• App Publishing</li>
+                        <li style="padding: 0.4rem 0; color: #666;">• Game Hosting</li>
+                        <li style="padding: 0.4rem 0; color: #666;">• Operations Management</li>
+                        <li style="padding: 0.4rem 0; color: #666;">• Monetization Strategy</li>
+                    </ul>
+                </div>
+
+                <!-- FAQ -->
+                <div style="margin-top: 2rem; padding: 2rem; background: rgba(0, 102, 204, 0.05); border-radius: 15px; border-left: 4px solid var(--primary-color);">
+                    <h3 style="color: var(--primary-color); margin-bottom: 1rem;">Frequently Asked Questions</h3>
+                    <div style="color: #666; font-size: 15px; line-height: 1.6;">
+                        <p><strong>Q: What is the typical response time?</strong></p>
+                        <p style="margin-bottom: 1rem;">A: We respond to all inquiries within 24 hours. Urgent matters are handled immediately.</p>
+
+                        <p><strong>Q: How can I start a project with Conmot Wu?</strong></p>
+                        <p style="margin-bottom: 1rem;">A: Simply contact us through this form, email, or website. We'll schedule a consultation to discuss your project.</p>
+
+                        <p><strong>Q: Do you offer custom development services?</strong></p>
+                        <p>A: Yes, we provide fully customized game development services tailored to your specific requirements and budget.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 额外信息 -->
+        <section style="padding: 4rem 2rem; background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%); margin-top: 2rem;">
+            <div style="max-width: 1200px; margin: 0 auto;">
+                <h2 style="text-align: center; font-size: 32px; margin-bottom: 3rem; color: var(--text-dark);">Why Partner With Conmot Wu?</h2>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+                    <div style="text-align: center;">
+                        <h3 style="font-size: 24px; color: var(--primary-color); margin-bottom: 1rem;">⭐ Proven Expertise</h3>
+                        <p style="color: #666; line-height: 1.6;">10+ years of successful game development and publishing across multiple platforms and markets.</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <h3 style="font-size: 24px; color: var(--primary-color); margin-bottom: 1rem;">🚀 Global Reach</h3>
+                        <p style="color: #666; line-height: 1.6;">Published games in 150+ countries with millions of downloads and active players worldwide.</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <h3 style="font-size: 24px; color: var(--primary-color); margin-bottom: 1rem;">💼 Professional Support</h3>
+                        <p style="color: #666; line-height: 1.6;">Dedicated account managers and 24/7 technical support throughout your project lifecycle.</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <h3 style="font-size: 24px; color: var(--primary-color); margin-bottom: 1rem;">📈 Monetization Focus</h3>
+                        <p style="color: #666; line-height: 1.6;">Advanced ad network integration and revenue optimization ensuring maximum profitability.</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <h3 style="font-size: 24px; color: var(--primary-color); margin-bottom: 1rem;">✅ Compliance Ready</h3>
+                        <p style="color: #666; line-height: 1.6;">Full compliance with COPPA, GDPR, CCPA, and all app store requirements and regulations.</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <h3 style="font-size: 24px; color: var(--primary-color); margin-bottom: 1rem;">🎨 Creative Excellence</h3>
+                        <p style="color: #666; line-height: 1.6;">Award-winning designers and developers creating engaging casual games for global audiences.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Conmot Wu</h4>
+                <p>Professional casual game development and publishing studio providing comprehensive services for global mobile game markets.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/conmotwu" class="social-link" title="Facebook">f</a>
+                    <a href="https://www.twitter.com/conmotwu" class="social-link" title="Twitter">𝕏</a>
+                    <a href="https://www.linkedin.com/company/conmot-wu" class="social-link" title="LinkedIn">in</a>
+                    <a href="https://www.youtube.com/conmotwu" class="social-link" title="YouTube">▶</a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="/#services">Game Development</a></li>
+                    <li><a href="/#services">App Publishing</a></li>
+                    <li><a href="/#services">Game Hosting</a></li>
+                    <li><a href="/#services">Operations</a></li>
+                    <li><a href="/#services">Monetization</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms-of-service.html">Terms of Service</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p><strong>Email:</strong> <a href="mailto:mukhammad0964@icloud.com" style="color: var(--secondary-color); text-decoration: none;">mukhammad0964@icloud.com</a></p>
+                <p><strong>Website:</strong> <a href="https://www.conmotwu.com" style="color: var(--secondary-color); text-decoration: none;">www.conmotwu.com</a></p>
+                <p style="margin-top: 1rem; font-size: 14px; color: rgba(255, 255, 255, 0.6);">Business Support Available 24/7</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Conmot Wu Studio. All rights reserved. | Professional Game Development & Publishing Services</p>
+            <p style="margin-top: 0.5rem; font-size: 14px;">Compliance Certified | COPPA & GDPR Compliant | App Store & Google Play Verified Publisher</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

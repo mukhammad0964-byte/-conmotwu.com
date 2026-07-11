@@ -1,0 +1,17 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="contactGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0066cc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6b6b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 信封外形 -->
+  <rect x="20" y="35" width="60" height="40" fill="none" stroke="url(#contactGrad)" stroke-width="2" rx="2"/>
+  
+  <!-- 信封盖 -->
+  <path d="M 20 35 L 50 55 L 80 35" fill="none" stroke="url(#contactGrad)" stroke-width="2" stroke-linejoin="round"/>
+  
+  <!-- 邮件标志 -->
+  <rect x="25" y="42" width="50" height="1" fill="#ffd700" opacity="0.8"/>
+</svg>

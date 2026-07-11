@@ -1,0 +1,48 @@
+# Conmot Wu Studio - Search Engine Optimization
+# 专业级 SEO 配置 - Professional SEO Configuration
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /contact.html
+Allow: /privacy-policy.html
+Allow: /terms-of-service.html
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# 拒绝访问敏感路径 - Block sensitive paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /backup/
+Disallow: /test/
+
+# 爬虫爬取延迟 - Crawl delay
+Crawl-delay: 1
+
+# 站点地图 - Sitemap
+Sitemap: https://www.conmotwu.com/sitemap.xml
+
+# Google 特定规则 - Google specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing 特定规则 - Bing specific  
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# 拒绝不受欢迎的爬虫 - Block unwanted bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
